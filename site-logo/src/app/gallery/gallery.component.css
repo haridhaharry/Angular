@@ -1,0 +1,28 @@
+#gallery{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+#box{
+  margin-left:100px;
+}
+#gallery li {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+  }
+
+.box1{
+   margin-left: 20px;
+  
+}

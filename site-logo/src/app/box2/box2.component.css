@@ -1,0 +1,24 @@
+.long-paragraph {
+    word-wrap: break-word; /* or word-break: break-all; */
+  }
+
+  #content {
+    height: 250px;
+    width: 1100px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.long-paragraph {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 900px;
+  }
+
+  
